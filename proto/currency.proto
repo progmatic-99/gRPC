@@ -1,4 +1,5 @@
-syntax="proto3";
+syntax = "proto3";
+option go_package = "/currency";
 
 service Currency {
   // Method on service
